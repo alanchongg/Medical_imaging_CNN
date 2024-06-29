@@ -1,6 +1,7 @@
 # Medical_imaging
 Using Convoluitonal neural network done using PyTorch to classifiy lung diseases  
-soruce of dataset: [https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/code](https://www.kaggle.com/datasets/fatemehmehrparvar/lung-disease/data)  
+soruce of dataset: https://www.kaggle.com/datasets/fatemehmehrparvar/lung-disease/data  
+This default hyperparatemer has the best results based on experimental testing done concidering both model parameter and training parameters.  
 
 The downloaded dataset can be placed in the same folder, using the prep.py will split the data into 3 different sets: trianing, validation, testing.  
 The Main file can be used to change the hyperparameters of the training process prior to running it.  
